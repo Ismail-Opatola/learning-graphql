@@ -11,9 +11,9 @@ const uri =
   "mongodb+srv://turfff:MAXcastelli270@cluster0-96vrp.mongodb.net/test?retryWrites=true&w=majority";
 mongoose.connect(uri, { useNewUrlParser: true });
 let db = mongoose.connection;
-db.on("error", console.error.bind(console, "db connection error:"));
+db.on("error", console.error.bind(console, "db connection error>>>>>>>>>:"));
 db.once("open", function() {
-  console.log("we're connected!");
+  console.log("we're connected!>>>>>>>");
 });
 
 app.use(
