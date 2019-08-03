@@ -8,6 +8,7 @@ const app = express();
 app.use(cors())
 
 // connect to mongoDB Atlas
+// https://cloud.mongodb.com/user?signedOut=true#/atlas/login
 // https://developerhandbook.com/mongodb/connect-mongo-atlas-mongoose/
 // https://mongoosejs.com/docs/
 const uri =
